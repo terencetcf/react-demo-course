@@ -78,7 +78,9 @@ function ManageCoursePage({
   }
 
   const handleBlockedNavigation = () => {
-    if (confirm("Are you sure you want leave this page without saving?")) {
+    if (
+      confirm("Are you sure you want leave this course page without saving?")
+    ) {
       return true;
     }
 
