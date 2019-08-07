@@ -23,7 +23,7 @@ function ManageAuthorPage({
   useEffect(() => {
     if (authors.length === 0) {
       loadAuthors().catch(error => {
-        alert("Loading authors failed " + error);
+        alert("Loading authors failed - " + error);
       });
     } else {
       setAuthor({ ...props.author });
