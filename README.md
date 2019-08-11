@@ -1,4 +1,4 @@
-# [Building Applications in React and Redux]
+# Building Applications in React and Redux
 
 ## Get Started
 
